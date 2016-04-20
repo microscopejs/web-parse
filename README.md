@@ -1,4 +1,4 @@
-web-mongo
+web-parse
 =========
 
 microscope-web / parse-server baas starter-kit
