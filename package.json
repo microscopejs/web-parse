@@ -1,0 +1,42 @@
+{
+  "name": "web-parse",
+  "version": "1.0.0",
+  "description": "microscope-web / parse-server baas starter-kit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microscopejs/web-parse.git"
+  },
+  "author": "bhtz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/microscopejs/web-parse/issues"
+  },
+  "homepage": "https://github.com/microscopejs/web-parse#readme",
+  "dependencies": {
+    "babel-plugin-syntax-flow": "^6.5.0",
+    "babel-plugin-transform-flow-strip-types": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "babel-register": "^6.5.1",
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "microscope-web": "^0.4.1",
+    "mongoose": "^4.2.4",
+    "parse-server": "^2.2.6",
+    "serve-favicon": "^2.3.0",
+    "serve-static": "^1.10.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
